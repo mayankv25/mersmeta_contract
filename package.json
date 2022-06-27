@@ -1,0 +1,30 @@
+{
+  "name": "mersmeta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.5.1",
+    "@openzeppelin/truffle-upgrades": "^1.12.0",
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "dotenv": "^16.0.0",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.30",
+    "truffle-flattener": "^1.6.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "solidity-coverage": "^0.7.17",
+    "truffle": "^5.4.33",
+    "truffle-plugin-verify": "^0.5.21"
+  }
+}
